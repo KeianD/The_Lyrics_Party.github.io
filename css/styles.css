@@ -82,3 +82,38 @@ img {
     right: 15px;
     top: 150px;
 }
+
+.color{
+    background-color: yellow;
+    box-sizing: border-box;
+    padding:2px;
+    height: 38px;
+    width:120px;
+    margin-bottom:20px;
+    font-size:28px;
+    color:grey;
+}
+
+#verse{
+ border-left:10px solid yellow;
+ margin-left:5%;
+ margin-top:20px;
+ color:grey;
+}
+#chorus{
+ border-left:10px solid yellow;
+ margin:20px;
+ margin-left: 20%;
+ color:grey;
+}
+
+#about{
+    position:absolute;
+    float:right;
+    box-sizing: border-box;
+    width:300px;
+    height:1000px;
+    background-color: grey;
+    top: 400px;
+    right:30px;
+}
