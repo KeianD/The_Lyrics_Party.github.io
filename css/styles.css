@@ -4,7 +4,8 @@
  padding:0;
 }
 
-a:link{
+
+nav a:link{
     text-decoration:none;
     color:white;
     font-size: 18px;
@@ -79,7 +80,7 @@ img {
     width: 150px;
     height: 150px;
     position: absolute;
-    right: 15px;
+    right: 35px;
     top: 150px;
 }
 
@@ -97,7 +98,7 @@ img {
 #verse{
  border-left:10px solid yellow;
  margin-left:5%;
- margin-top:20px;
+ margin-top:30px;
  color:grey;
 }
 #chorus{
@@ -112,8 +113,40 @@ img {
     float:right;
     box-sizing: border-box;
     width:300px;
-    height:1000px;
+    height:890px;
     background-color: grey;
-    top: 400px;
-    right:30px;
+    top: 380px;
+    right:50px;
+    
+}
+
+#about>h2{
+    box-sizing: border-box;
+    background-color: yellow;
+    color:grey;
+    padding-top:12px;
+    padding-left:12px;
+    width:300px;
+    height:65px;
+    font-size: 30px;
+}
+#about>p {
+    color:white;
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#about> blockquote{
+    color:white;
+    padding-top: 15px;
+    padding-left:40px;
+    padding-right:40px;
+}
+.line{
+    border:none;
+    background-color:yellow;
+    height:8px;
+    margin-top:100px;
+    margin-bottom:50px;
 }
